@@ -15,9 +15,13 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "npm@10.2.4",
+  "packageManager": "npm@10.8.2",
   "workspaces": [
+    
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@prisma/client": "^5.20.0"
+  }
 }
